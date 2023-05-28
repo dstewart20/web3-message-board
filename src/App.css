@@ -1,0 +1,67 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+  background-color: chocolate;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+.btnHeader {
+  align-self: flex-end;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: wheat;
+}
+.commentHeader {
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  display: flex;
+}
+
+.bio {
+  text-align: center;
+  margin-top: 16px;
+}
+.comment {
+  background-color: dodgerblue;
+  color: yellow;
+  border-radius: 10px;
+  font-weight: 700;
+}
+textarea::placeholder {
+  color: black;
+  font-weight: 700;
+}
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.connectButton {
+  cursor: pointer;
+  border: 0;
+  padding: 8px;
+  background-color: dodgerblue;
+  border-radius: 5px;
+}
