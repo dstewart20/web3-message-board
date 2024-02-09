@@ -2,4 +2,4 @@
 
 A message board for people to comment by paying some ETH.
 
-This project was bootstrapped with React APP
+This project was bootstrapped with React APP, and deployed on Replit.

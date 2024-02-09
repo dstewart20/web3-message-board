@@ -19,7 +19,7 @@ contract UploadPortal {
     mapping(address => uint256) public lastUploadTime;
 
     constructor() payable {
-        console.log("Advanced smart contract type beat!");
+        console.log("Advanced smart contract");
     }
 
     function upload(string memory _message) public {
